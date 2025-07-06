@@ -1,0 +1,22 @@
+{
+  "name": "@kizuna/config",
+  "version": "1.0.0",
+  "private": true,
+  "main": "src/index.ts",
+  "files": [
+    "src/**/*",
+    "eslint/**/*",
+    "prettier/**/*",
+    "tsconfig/**/*"
+  ],
+  "scripts": {
+    "clean": "rm -rf dist"
+  },
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^6.0.0",
+    "@typescript-eslint/parser": "^6.0.0",
+    "eslint": "^8.0.0",
+    "prettier": "^3.0.0",
+    "typescript": "^5.0.0"
+  }
+}
