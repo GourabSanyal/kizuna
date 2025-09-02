@@ -1,9 +1,9 @@
 {
   "expo": {
-    "name": "native",
-    "slug": "native",
+    "name": "Kizuna",
+    "slug": "kizuna",
     "version": "1.0.0",
-    "scheme": "com.turbo.example",
+    "scheme": "com.kizuna.app",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
     "userInterfaceStyle": "light",
@@ -16,21 +16,28 @@
     "updates": {
       "fallbackToCacheTimeout": 0
     },
-    "assetBundlePatterns": ["**/*"],
+    "assetBundlePatterns": [
+      "**/*"
+    ],
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "com.kizuna.app",
+      "displayName": "Kizuna"
     },
     "android": {
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#FFFFFF"
       },
-      "package": "com.turbo.example"
+      "package": "com.kizuna.app",
+      "displayName": "Kizuna"
     },
     "web": {
       "favicon": "./assets/favicon.png",
       "bundler": "metro"
     },
-    "plugins": ["expo-router"]
+    "plugins": [
+      "expo-router"
+    ]
   }
 }
