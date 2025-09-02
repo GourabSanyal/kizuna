@@ -1,4 +1,4 @@
-package com.turbo.example
+package com.kizuna.app
 
 import android.app.Application
 import android.content.res.Configuration

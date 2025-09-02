@@ -18,4 +18,15 @@ config.resolver.nodeModulesPaths = [
 // 3. Force Metro to resolve (sub)dependencies only from the `nodeModulesPaths`
 config.resolver.disableHierarchicalLookup = true;
 
+// 4. Optimize for development builds
+config.transformer.minifierConfig = {
+  keep_fnames: true,
+  mangle: {
+    keep_fnames: true,
+  },
+};
+
+// 5. Enable source maps for better debugging
+config.transformer.enableBabelRCLookup = false;
+
 module.exports = config;

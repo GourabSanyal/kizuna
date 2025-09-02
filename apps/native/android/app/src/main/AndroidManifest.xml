@@ -24,8 +24,9 @@
         <action android:name="android.intent.action.VIEW"/>
         <category android:name="android.intent.category.DEFAULT"/>
         <category android:name="android.intent.category.BROWSABLE"/>
-        <data android:scheme="com.turbo.example"/>
-        <data android:scheme="com.turbo.example"/>
+        <data android:scheme="com.kizuna.app"/>
+        <data android:scheme="com.kizuna.app"/>
+        <data android:scheme="exp+kizuna"/>
       </intent-filter>
     </activity>
   </application>
