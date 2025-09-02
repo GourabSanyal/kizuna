@@ -27,7 +27,13 @@
       <dict>
         <key>CFBundleURLSchemes</key>
         <array>
-          <string>com.gouravsanyal.kizuna</string>
+          <string>com.kizuna.app</string>
+        </array>
+      </dict>
+      <dict>
+        <key>CFBundleURLSchemes</key>
+        <array>
+          <string>exp+kizuna</string>
         </array>
       </dict>
     </array>

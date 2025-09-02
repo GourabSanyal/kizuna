@@ -1,4 +1,4 @@
-package com.gouravsanyal.kizuna
+package com.kizuna.app
 
 import android.app.Application
 import android.content.res.Configuration

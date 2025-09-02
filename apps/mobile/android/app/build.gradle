@@ -87,9 +87,9 @@ android {
     buildToolsVersion rootProject.ext.buildToolsVersion
     compileSdk rootProject.ext.compileSdkVersion
 
-    namespace 'com.gouravsanyal.kizuna'
+    namespace 'com.kizuna.app'
     defaultConfig {
-        applicationId 'com.gouravsanyal.kizuna'
+        applicationId 'com.kizuna.app'
         minSdkVersion rootProject.ext.minSdkVersion
         targetSdkVersion rootProject.ext.targetSdkVersion
         versionCode 1

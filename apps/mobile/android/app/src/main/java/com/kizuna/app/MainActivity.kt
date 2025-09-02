@@ -1,4 +1,4 @@
-package com.gouravsanyal.kizuna
+package com.kizuna.app
 
 import android.os.Build
 import android.os.Bundle
