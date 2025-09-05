@@ -1,5 +1,6 @@
 import React from 'react';
 import { View, Text, StyleSheet, TouchableOpacity } from 'react-native';
+import { logError } from '../services/error/errorLogging';
 
 interface Props {
   children: React.ReactNode;
@@ -28,9 +29,8 @@ class ErrorBoundary extends React.Component<Props, State> {
   }
 
   componentDidCatch(error: Error, errorInfo: React.ErrorInfo) {
-    // You can log the error to an error reporting service here
-    console.error('ErrorBoundary caught an error:', error, errorInfo);
-    // TODO: Implement proper error logging service
+    // Log the error using our error logging service
+    logError(error, true);
   }
 
   handleReset = () => {
